@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "name": "express",
+  "version": "1.0.0",
+  "description": "this is the express js server",
+  "main": "express-server.js",
+  "scripts": {
+    "start": "node express.js",
+    "backend": "nodemon express.js"
+  },
+  "author": "pinaki",
+  "license": "ISC"
 }

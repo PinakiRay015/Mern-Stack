@@ -1,0 +1,18 @@
+{
+  "name": "taskmanager-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-server.js",
+  "scripts": {
+    "start": "node backend/express-server.js",
+    "dev": "nodemon backend/express-server.js"
+  },
+  "keywords": [],
+  "author": "pinaki",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
